@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 
-// datepicker initialization
+    // datepicker initialization
     let datepicker = document.querySelectorAll('.datepicker');
     M.Datepicker.init(datepicker, {
         format: "dd mmmm, yyyy",
@@ -14,5 +14,12 @@ document.addEventListener('DOMContentLoaded', function () {
     // select initialization 
     let selects = document.querySelectorAll('select');
     M.FormSelect.init(selects);
+
+    // collapsible initialization
+  
+        let collapsibles = document.querySelectorAll('.collapsible');
+        M.Collapsible.init(collapsibles);
+    
+
 });
 
